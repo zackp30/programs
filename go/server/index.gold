@@ -1,0 +1,6 @@
+doctype html
+  p
+    | Ohey. Welcome to the HTTP server of misc things.
+  p
+    | Have a nice time here.
+

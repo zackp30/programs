@@ -1,0 +1,68 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.15.2)
+      timers (~> 1.1.0)
+    celluloid-io (0.15.0)
+      celluloid (>= 0.15.0)
+      nio4r (>= 0.5.0)
+    celluloid-redis (0.0.2)
+      celluloid-io (>= 0.13.0.pre)
+      redis
+    celluloid-zmq (0.15.0)
+      celluloid (>= 0.13.0)
+      ffi
+      ffi-rzmq
+    cinch (2.1.0)
+    dcell (0.15.0)
+      celluloid (>= 0.15.0)
+      celluloid-redis
+      celluloid-zmq (>= 0.15.0)
+      redis-namespace
+      reel
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.3)
+    ffi-rzmq (2.0.1)
+      ffi-rzmq-core (>= 1.0.1)
+    ffi-rzmq-core (1.0.2)
+      ffi (~> 1.9)
+    htmlentities (4.3.1)
+    http (0.5.0)
+      http_parser.rb
+    http_parser.rb (0.6.0)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.25.1)
+    multi_json (1.9.0)
+    multipart-post (2.0.0)
+    nio4r (1.0.0)
+    polyglot (0.3.4)
+    redditkit (1.0.1)
+      faraday (~> 0.8)
+      htmlentities (~> 4.3)
+      multi_json (~> 1.8)
+    redis (3.0.7)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
+    reel (0.4.0)
+      celluloid (>= 0.15.1)
+      celluloid-io (>= 0.15.0)
+      http (>= 0.5.0)
+      http_parser.rb (>= 0.6.0.beta.2)
+      websocket_parser (>= 0.1.4)
+    timers (1.1.0)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    websocket_parser (0.1.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch
+  dcell
+  mail
+  redditkit
