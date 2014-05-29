@@ -1,6 +1,3 @@
-#lang racket
-
-(require racket/tcp)
 (define server (tcp-listen 7890))
 (define-values (s-in s-out) (tcp-accept server))
 
